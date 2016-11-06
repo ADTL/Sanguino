@@ -56,6 +56,18 @@ sanguino.menu.cpu.atmega644p.bootloader.file=optiboot/optiboot_atmega644p.hex
 sanguino.menu.cpu.atmega644p.build.mcu=atmega644p
 sanguino.menu.cpu.atmega644p.build.f_cpu=16000000L
 
+## Sanguino W/ ATmega644P or ATmega644PA (12.5MHz)
+sanguino.menu.cpu.atmega644p=ATmega644P or ATmega644PA (12.5 MHz)
+
+sanguino.menu.cpu.atmega644p.upload.maximum_size=64512
+sanguino.menu.cpu.atmega644p.upload.maximum_data_size=4096
+sanguino.menu.cpu.atmega644p.upload.speed=115200
+
+sanguino.menu.cpu.atmega644p.bootloader.file=optiboot/optiboot_atmega644p_12_5.hex
+
+sanguino.menu.cpu.atmega644p.build.mcu=atmega644p
+sanguino.menu.cpu.atmega644p.build.f_cpu=12500000L
+
 ## Sanguino W/ ATmega644P or ATmega644PA (8MHz)
 sanguino.menu.cpu.atmega644p_8m=ATmega644P or ATmega644PA (8 MHz)
 
@@ -81,6 +93,18 @@ sanguino.menu.cpu.atmega1284p.bootloader.file=optiboot/optiboot_atmega1284p.hex
 
 sanguino.menu.cpu.atmega1284p.build.mcu=atmega1284p
 sanguino.menu.cpu.atmega1284p.build.f_cpu=16000000L
+
+## Sanguino W/ ATmega1284 or ATmega1284P 12.5MHz
+sanguino.menu.cpu.atmega1284p=ATmega1284 or ATmega1284P (12.5 MHz)
+
+sanguino.menu.cpu.atmega1284p.upload.maximum_size=130048
+sanguino.menu.cpu.atmega1284p.upload.maximum_data_size=16384
+sanguino.menu.cpu.atmega1284p.upload.speed=115200
+
+sanguino.menu.cpu.atmega1284p.bootloader.file=optiboot/optiboot_atmega1284p_12_5.hex
+
+sanguino.menu.cpu.atmega1284p.build.mcu=atmega1284p
+sanguino.menu.cpu.atmega1284p.build.f_cpu=12500000L
 
 ## Sanguino W/ ATmega1284 or ATmega1284P 8MHz
 sanguino.menu.cpu.atmega1284p_8m=ATmega1284 or ATmega1284P (8 MHz)
