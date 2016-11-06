@@ -41,9 +41,9 @@
           "boards": [
             {"name": "Sanguino"}
           ],
-          "toolsDependencies": [],
-		}
-	  ],
+          "toolsDependencies": []
+	}
+      ],
       "tools": []
     }
   ]
